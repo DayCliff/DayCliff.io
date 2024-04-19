@@ -1,17 +1,12 @@
-import Harper from './Harper.jpg';
 import './App.css';
+import Homepage from './homepage';
+// import React from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={Harper} className="App-logo" alt="logo" />
-        <p>
-          <code>Coming sooonnnn</code>
-        </p>
-      </header>
-    </div>
-  );
+  return( <div className="App">
+  <Homepage />
+</div>);
+  
 }
 
 export default App;

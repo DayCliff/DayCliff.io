@@ -1,5 +1,27 @@
+.body{
+  background: linear-gradient(180deg, rgb(88, 128,97),transparent);
+  padding:10px;
+  min-height: 100vh;
+}
+
+/*html {*/
+/*  !* To make use of full height of page*!*/
+/*  min-height: 100vh;*/
+/*  margin: 0;*/
+/*}*/
+
 .App {
   text-align: center;
+}
+
+.Title {
+  font-family: Verdana;
+  width: 100%;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: #588061;
+  color: #ffddd6;
 }
 
 .App-logo {
@@ -13,6 +35,92 @@
   }
 }
 
+.row{
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: center;
+  /*border-style: inset;*/
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #ffddd6;
+  border-style: inset;
+  border-radius: 10px;
+  border-color: #f1b6ac;
+  background-color: #ffddd6;
+  box-shadow:
+          0 3px 2px rgba(0, 0, 0, 0.034),
+          0 7px 5px rgba(0, 0, 0, 0.048),
+          0 13px 10px rgba(0, 0, 0, 0.06),
+          0 22px 18px rgba(0, 0, 0, 0.072),
+          0 42px 33px rgba(0, 0, 0, 0.086),
+          0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.box {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.div p{
+  justify-content: center;
+}
+.box div {
+  width: 500px;
+  height: 250px;
+
+}
+
+.column-1{
+  flex-grow: 3;
+  flex-direction: column;
+  justify-content: center;
+  border-style: inset;
+  border-radius: 10px;
+  border-color: #f1b6ac;
+  background-color: #ffddd6;
+  box-shadow:
+          0 3px 2px rgba(0, 0, 0, 0.034),
+          0 7px 5px rgba(0, 0, 0, 0.048),
+          0 13px 10px rgba(0, 0, 0, 0.06),
+          0 22px 18px rgba(0, 0, 0, 0.072),
+          0 42px 33px rgba(0, 0, 0, 0.086),
+          0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.column-2{
+  flex-grow: 0;
+  flex-direction: column;
+  justify-content: center;
+  border-style: inset;
+  border-radius: 10px;
+  border-color: #f1b6ac;
+  background-color: #ffddd6;
+  box-shadow:
+          0 3px 2px rgba(0, 0, 0, 0.034),
+          0 7px 5px rgba(0, 0, 0, 0.048),
+          0 13px 10px rgba(0, 0, 0, 0.06),
+          0 22px 18px rgba(0, 0, 0, 0.072),
+          0 42px 33px rgba(0, 0, 0, 0.086),
+          0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card .content {
+  flex-grow: 2;
+  justify-content: center;
+}
+
+
+.light {
+  --color-bg: #588061;
+  --color-fg: #ffddd6;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -21,7 +129,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #588061;
 }
 
 .App-link {
@@ -36,3 +144,11 @@
     transform: rotate(360deg);
   }
 }
+
+/*.button-background{*/
+/*  color: #588061;*/
+/*}*/
+/*.button{*/
+/*  background-color: var(--button-background);*/
+/*}*/
+
